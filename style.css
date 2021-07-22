@@ -1,0 +1,39 @@
+.nav {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: dimgray;
+    color: white;
+}
+.nav-title {
+    width: 90px;
+    font-style: bold;
+}
+.nav-links {
+    width: 800px;
+    display: flex;
+}
+.active {
+    width: 80px;
+    font-weight: 600;
+}
+.btn {
+    width: 80px;
+    background-color:cadetblue;
+    font-style: 1cm;
+    margin-right: 20px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+a, .nav-title, .nav-links, .active, .btn {
+    height: 30px;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
